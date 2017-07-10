@@ -4,6 +4,8 @@ Create a simple REST API (README)
 
 1. I have used ASP.NET Core to develop the API to make it cross platform and demonstrated fair level SOLID Principals. Whole project is Re-sharper checked for no errors.
 
+I have used Xunit for the unit testing. You can also, go to command window of Test project and issue "Dotnet test" to run the tests.
+
 2. There are 3 projects in the solution
 	2.1 RestApi - implements and exposes the WebApi uses dependency injection
 	2.2 RestApi.Core - implements Data and Entity layer
@@ -29,3 +31,4 @@ Notes:
 1. This project/test doesn't uses the DB migrations, and I have created the "MoneyBoxDb" manually, which I am supplying with this project, in case, there is any problem accessing the DB, please recreate the DB.
 
 2. There is "ConnectionString" property in RestApi project in the file called "appsettings.json", in case of any connection related issues.
+3. To run the tests, "Test->Windows->Test Explorer" and not from the test file.
