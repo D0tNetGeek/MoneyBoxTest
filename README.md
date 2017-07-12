@@ -1,5 +1,5 @@
 # MoneyBoxTest
-Create a simple REST API (README FILE)
+Create a simple REST API (README)
 
 
 1. I have used ASP.NET Core to develop the API to make it cross platform and demonstrated fair level SOLID Principals. Whole project is Re-sharper checked for no errors.
